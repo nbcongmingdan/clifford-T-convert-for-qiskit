@@ -16,3 +16,15 @@ Install the required packages via pip:
 ```bash
 pip install qiskit pygridsynth
 
+```
+
+Usage
+
+```python
+
+from clifford_t_converter import to_clifford_t
+
+# qc_test is a Qiskit QuantumCircuit object
+qc_conv = to_clifford_t(qc_test, precision=1e-1)
+
+```
