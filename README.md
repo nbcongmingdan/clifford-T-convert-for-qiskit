@@ -25,6 +25,6 @@ Usage
 from clifford_t_converter import to_clifford_t
 
 # qc_test is a Qiskit QuantumCircuit object
-qc_conv = to_clifford_t(qc_test, precision=1e-1)
+qc_conv = to_clifford_t(qc_test, precision=1e-3)
 
 ```
